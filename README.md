@@ -15,28 +15,33 @@ https://en.wikipedia.org/wiki/Request_for_Comments.
 
 ## Process
 1. Create a branch and copy the [rfc-template.md](rfc-template.md)
-to `rfcs/0000-my-proposal.md` and edit as needed. The RFC can be authored in
+to `rfcs/ZZZZ-my-proposal.md` and edit as needed. The RFC can be authored in
 either official language, but must be translated be being accepted. A rejected
-RFC does not need to be translated.
-2. Images and other files should be placed in a `rfcs/0000-data` folder.
+RFC does not need to be translated. The `ZZZZ` should be the next unused RFC
+number in both the repository and PRs.
+2. Images and other files should be placed in a `rfcs/ZZZZ-data` folder.
 3. Create a pull request against this repository.
-4. Rename the `0000` in your RFC file and directory to match the PR number (please keep the leading zeros). Push the renamed files to the branch.
-5. Post a link in the #devz-cds slack channel. Feel free to @mention specific
+4. Post a link in the #devz-cds slack channel. Feel free to @mention specific
 people if their review is desired.
-6. Set the assignee for the PR to yourself.
-7. Make changes as needed based on the reviews.
-8. Push the PR forward. If needed, talk with your tech lead to determine who
+5. Set the assignee for the PR to yourself.
+6. Make changes as needed based on the reviews.
+7. Push the PR forward. If needed, talk with your tech lead to determine who
 needs to review the PR or how to get it unstuck.
-9. a) If rough consensus is achieved and approval has been marked in the PR
+8. a) If rough consensus is achieved and approval has been marked in the PR
       squash and merge the change into the repository.
    b) If the PR was rejected, record the reasons in a final comment and close 
       the PR.
 
 ## Maintaining RFCs
-In most cases, RFCs should be replaced by new RFCs instead of being edited.
-When an RFC is obsolete it should be moved into the `rfcs/archive` folder
-as part of the PR creating the new RFC. The obsolete RFC should have 
-metadata added into the YAML front matter stating:
+RFCs should be reviewed for freshness on a periodic basis, at a set time
+schedule after the freshness date the owner will be contacted to review the RFC.
+Once done, the owner should update the freshness date to the review date and
+handle any minor edits, if needed.
+
+In the case of substantial changes, RFCs should be replaced by new RFCs instead
+of being edited. When an RFC is obsolete it should be moved into the
+`archive/` folder as part of the PR creating the new RFC. The obsolete RFC
+should have metadata added into the YAML front matter stating:
 
 ```yaml
 ---
@@ -52,6 +57,13 @@ The new RFC should have a YAML front matter entry listing the obsolete RFC:
 obsoletes: 0000-my-proposal.md
 ---
 ```
+
+## Discussions
+The discussion section of the repository is used to house discussions of specific
+implementations. There maybe an RFC detailing what we use for cloud deployments
+and why we chose that technology, there will then probably be discussion pages
+detailing how we use that technology. The discussions will change more often
+then the RFCs as new versions are released, ways of using those tools updated, etc.
 
 ## Contact
 

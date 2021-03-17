@@ -1,5 +1,7 @@
 ---
-created-on: 2021-04-16
+created-on: YYYY-MM-DD   (date the RFC was created)
+freshness: YYYY-MM-DD    (date the RFC was last reviewed for freshness)
+owner: <github username> (owner responsible for freshness review)
 tags:
   - any_relevant_tags
 ---

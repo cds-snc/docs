@@ -1,5 +1,7 @@
 ---
 created-on: 2021-04-16
+freshness: 2021-04-17
+owner: @dj2
 ---
 
 [La version française suit.](#résumé)
@@ -18,7 +20,7 @@ This is not a perfect solution. We welcome all feedback, questions, and comments
 on our practices, and ask that you simply respect that working in the open is a
 challenging process.
 
-For this document, `we` refers to the CDS developer community.
+For this document, 'we' refers to the CDS developer community.
 
 
 ## Motivation
