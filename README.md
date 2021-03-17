@@ -34,10 +34,10 @@ needs to review the PR or how to get it unstuck.
 
 ## RFC Status
 There are four status markers used in these RFCs:
- * informational -- The RFC is describing why we do something, or general philosophy.
- * experimental -- We want to test out a way of working but it isn't yet decided.
- * accepted -- RFC is fully accepted and describes how we work.
- * historic -- RFC has been replaced by another RFC and is maintained for history.
+ * `informational` -- The RFC is describing why we do something, or general philosophy.
+ * `experimental` -- We want to test out a way of working but it isn't yet decided.
+ * `accepted` -- RFC is fully accepted and describes how we work.
+ * `historic` -- RFC has been replaced by another RFC and is maintained for history.
 
 ## Maintaining RFCs
 RFCs should be reviewed for freshness on a periodic basis, at a set time
