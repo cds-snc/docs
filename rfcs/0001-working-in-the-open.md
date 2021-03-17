@@ -2,6 +2,7 @@
 created-on: 2021-04-16
 freshness: 2021-04-17
 owner: @dj2
+status: informational
 ---
 
 [La version française suit.](#résumé)
@@ -44,7 +45,7 @@ repositories.
 
 We encourage our team members to work in the language of their choice, and to
 ensure that they respond to community members in the language of their
-choosing. High level items such as roadmaps, product features, and documentation 
+choosing. High level items such as road maps, product features, and documentation 
 should be available in both languages. If you notice areas that are not, feel
 free to raise them with us and we will do our best to resolve the issue as
 quickly as possible.

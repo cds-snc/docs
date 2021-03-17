@@ -32,6 +32,13 @@ needs to review the PR or how to get it unstuck.
    b) If the PR was rejected, record the reasons in a final comment and close 
       the PR.
 
+## RFC Status
+There are four status markers used in these RFCs:
+ * informational -- The RFC is describing why we do something, or general philosophy.
+ * experimental -- We want to test out a way of working but it isn't yet decided.
+ * accepted -- RFC is fully accepted and describes how we work.
+ * historic -- RFC has been replaced by another RFC and is maintained for history.
+
 ## Maintaining RFCs
 RFCs should be reviewed for freshness on a periodic basis, at a set time
 schedule after the freshness date the owner will be contacted to review the RFC.
@@ -57,6 +64,8 @@ The new RFC should have a YAML front matter entry listing the obsolete RFC:
 obsoletes: 0000-my-proposal.md
 ---
 ```
+
+The `status` field should also be updated to `historic`.
 
 ## Discussions
 The discussion section of the repository is used to house discussions of specific
