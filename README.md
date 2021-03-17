@@ -69,7 +69,8 @@ The `status` field should also be updated to `historic`.
 
 ## Discussions
 The discussion section of the repository is used to house discussions of specific
-implementations. There maybe an RFC detailing what we use for cloud deployments
+implementations. This is information on how we work, as opposed to RFCs which are
+the whys of our work. There maybe an RFC detailing what we use for cloud deployments
 and why we chose that technology, there will then probably be discussion pages
 detailing how we use that technology. The discussions will change more often
 then the RFCs as new versions are released, ways of using those tools updated, etc.
