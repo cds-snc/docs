@@ -1,6 +1,6 @@
 [La version française suit.](#TODO)
 
-# CDS-SNC Request for Comments
+# CDS-SNC Docs
 
 This repository is the source of truth for development practices at CDS. The
 idea is modeled after the
