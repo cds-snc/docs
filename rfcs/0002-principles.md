@@ -37,7 +37,7 @@ to understand how we work.
   - Build in accessibility, inclusivity and translatability from the start
 3. Bring people with you
   - Values:
-    * [Work in the open to help clear a path](0004-values.md#work-in-the-open-to-helpclear-a-path)
+    * [Work in the open to help clear a path](0004-values.md#work-in-the-open-to-help-clear-a-path)
     * [Take care of each other](0004-values.md#take-care-of-each-other)
     * [Put people at the heart of services](0004-values.md#put-people-at-the-heart-of-services)
   - Build shared understanding
@@ -46,7 +46,7 @@ to understand how we work.
   - Ask for help when needed
 4. Always be learning, building, and adapting
   - Values:
-    * [Deliver measureable outcomes](0004-values.md#deliver-measureable-outcomes)
+    * [Deliver measurable outcomes](0004-values.md#deliver-measurable-outcomes)
     * [Do the hard work to make things easier](0004-values.md#do-the-hard-work-to-make-things-easier)
     * [Build for learning and iteration](0004-values.md#build-for-learning-and-iteration)
   - Build from research and research what you build
