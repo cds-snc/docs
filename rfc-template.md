@@ -10,9 +10,8 @@ tags:
 [La version française suit.](#résumé)
 
 # Title
-
 (Note, this is an example template, please delete any sections which are
-not relevant for your RFC.)
+not relevant for your RFC along with any content in ()'s.)
 
 ## Summary
 Executive summary of the RFC.
