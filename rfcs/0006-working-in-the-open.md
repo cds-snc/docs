@@ -42,8 +42,9 @@ Government.
 
 ## Proposal
 * For new development choose a permissive license approved by the Open Source
-  Initiative, preferring the MIT License. MIT is the default license for USDS,
-  GDS, 18F, the Ontario Digital Service, and others.
+  Initiative, preferring the MIT License. MIT is a recommended license from the
+  [Canadian Government Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04) and the licensed used by
+  [WET-BOEW](https://github.com/wet-boew/wet-boew).
 
 * When adapting existing code from another organization, understand and respect
   the license terms of the original code. When forking and adapting existing
@@ -51,8 +52,7 @@ Government.
   understand and apply license terms and conditions from the GC Office of the
   CIO (OCIO).
 
-* Where possible, avoid using software or packages that are not licensed under
-  an OSI or FSF-approved open source license.
+* You SHOULD NOT use software or packages that have a non-OSI approved license.
 
 * The [CDS-SNC GitHub organization](https://github.com/cds-snc) is our default
   code repository. If needed or desired by a partner, a similar organization on
@@ -69,8 +69,10 @@ Government.
   project for examples to copy.
 
 * Adhere to the Official Languages Act by providing bilingual documentation,
-  creating bilingual templates for issues and pull requests, and responding to
-  issues in the language of the issue whenever possible.
+  creating bilingual templates for issues and pull requests.
+
+* Issues opened in an official language MUST be responded to in that official
+  language.
 
 * Work to maintain the health of our repositories.
   * Keep your artifacts and repositories clean and accurate.
@@ -78,8 +80,8 @@ Government.
     * Delete stale and merged branches
     * Remove old pull requests that will not be merged
     * Regularly prune old issues.
-  * Respond to issues in a timely manor, both internal and external.
-  * Respond to PRs in a timely manor. This is especially important if the PR
+  * Respond to issues in a timely manner, both internal and external.
+  * Respond to PRs in a timely manner. This is especially important if the PR
     won't be accepted for some reason. Make sure it's clear why the PR was
     rejected and if there is anything that could be done to make it acceptable
     in the future.
