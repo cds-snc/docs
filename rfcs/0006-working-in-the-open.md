@@ -23,6 +23,8 @@ products, coding in the open provides a number of important benefits:
  * It clarifies ownership
  * It helps make government technology seamless
  * It’s easier to start code in the open than to open a closed repository
+ * Releasing as open source allows leveraging tools for open source projects, reducing overall costs
+ * Allows developers to talk about what they're working on without issues of confidentiality
 
 This RFC attempts to lay out the _how_ of our open source work.
 
