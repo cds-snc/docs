@@ -2,7 +2,7 @@
 created-on: YYYY-MM-DD   (date the RFC was created)
 freshness: YYYY-MM-DD    (date the RFC was last reviewed for freshness)
 owner: <github username> (owner responsible for freshness review)
-status: <one of informational | experimental | accepted | historic>
+status: <one of proposal | rejected | informational | experimental | accepted | historic>
 tags:
   - any_relevant_tags
 ---
