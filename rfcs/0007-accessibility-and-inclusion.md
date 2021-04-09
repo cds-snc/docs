@@ -26,12 +26,14 @@ it better than it was yesterday.
 
 
 ## Motivation
-We build services to for anyone that wants to interact with the Canadian
+We build services for anyone that wants to interact with the Canadian
 Government which, by its nature, includes people who require the accessibility
 features of our sites. In order to meet our mission we MUST build accessibility
 and inclusivity into our software.
 
-Further, there the [Canadian Government Standard on Web Accessibility](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601) requires sites to be accessible and to meet certain
+Further, the [Government of Canada Standard on Web Accessibility](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601)
+and the [Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-people-disabilities/act-summary.html)
+require sites to be accessible and to meet certain
 [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
 standards.
 
