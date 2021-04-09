@@ -63,6 +63,9 @@ Each product will be allowed to apply their own unique set of labels alongside t
 - Name: Wont fix | Ne résoudra pas
   Description:
   Colour:
+- Name: Accessiblity | Accessibilité
+  Description:
+  Colour:
 ```
 
 
@@ -84,9 +87,9 @@ Label Meta-data is defined by Github and can be found here https://docs.github.c
 
 The governance surrounding the creation, modification and approval of labels will depend on what label group is being acted upon. 
 
-**CDS wide labels** will be owned by the head of product management. 
+**CDS wide labels** will be owned by the head of development. 
 
-**Product Specific Labels** will be owned by the product manager, this is done by applying a .codeowner file against the labels.js file.
+**Product Specific Labels** will be owned by the product tech lead, this is done by applying a .codeowner file against the labels.js file.
 Github Pull requests can be used to provide a lightweight and transparent approval process. 
 
 Any employee of CDS can open a PR or Issue updating the labels, it is recommended that these are documented with a rationale for change.
@@ -97,7 +100,7 @@ The head of SRE will own the CDS label repo minus the label.js file which is own
 Product specific label repos will be owned by the business unit’s SRE member or the teams 
 
 ## Drawbacks
-CDS Employees are not used to things being dictated from top down so this has a potential to cause friction with employees who are used to doing what they want.
+A large number of existing products with established github labels and a reluctance to adopt this standard in new products means we won't see as many benefits from implementing this RFC as we would like with a wider adoption within CDS.
 
 ## Alternatives
 
