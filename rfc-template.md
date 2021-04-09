@@ -2,7 +2,7 @@
 created-on: YYYY-MM-DD   (date the RFC was created)
 freshness: YYYY-MM-DD    (date the RFC was last reviewed for freshness)
 owner: <github username> (owner responsible for freshness review)
-status: <one of informational | experimental | accepted | historic>
+status: <one of proposal | rejected | informational | experimental | accepted | historic>
 tags:
   - any_relevant_tags
 ---
@@ -10,9 +10,8 @@ tags:
 [La version française suit.](#résumé)
 
 # Title
-
 (Note, this is an example template, please delete any sections which are
-not relevant for your RFC.)
+not relevant for your RFC along with any content in ()'s.)
 
 ## Summary
 Executive summary of the RFC.
