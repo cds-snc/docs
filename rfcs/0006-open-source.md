@@ -1,6 +1,6 @@
 ---
 created-on: 2021-03-31
-freshness: 2021-03-31
+freshness: 2021-04-08
 owner: @dj2
 status: proposal
 tags:
@@ -9,7 +9,8 @@ tags:
 
 [La version française suit.](#résumé)
 
-# Working in the open
+# Open Source
+
 ## Summary
 CDS as an organization has a commitment to working in the open, inspired by our
 peers in the UK, United States, and around the world. As we develop software
@@ -23,8 +24,14 @@ products, coding in the open provides a number of important benefits:
  * It clarifies ownership
  * It helps make government technology seamless
  * It’s easier to start code in the open than to open a closed repository
- * Releasing as open source allows leveraging tools for open source projects, reducing overall costs
- * Allows developers to talk about what they're working on without issues of confidentiality
+ * Releasing as open source allows leveraging tools for open source projects,
+   reducing overall costs
+ * Allows developers to talk about what they're working on without issues of
+   confidentiality
+ * Releasing as open source allows us to leverage tools for open source projects,
+   reducing overall costs
+ * Allows developers to easily talk about what they're working on without issues
+   of confidentiality.
 
 This RFC attempts to lay out the _how_ of our open source work.
 
