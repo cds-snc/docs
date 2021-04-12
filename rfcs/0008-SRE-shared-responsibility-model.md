@@ -54,7 +54,7 @@ Returning to a more traditional approach where artifacts are handed from the dev
 
 ## Open Questions
 - How often is this shared responsibility model reviewed?
-- Who arbitrates disputes and who has the final authority on decisions?
+- How to arbitrate disputes and who has the final authority on decisions?
 
 ---
 
