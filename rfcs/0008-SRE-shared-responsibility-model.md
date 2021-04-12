@@ -43,7 +43,7 @@ In our shared responsibility model, product teams are responsible for -
     [Landing Zone](https://aws.amazon.com/solutions/implementations/aws-landing-zone/) specific)
 
 ## Drawbacks
-Keeping a set of shared responsibilities, short, high level, and clear comes at the cost
+Keeping a set of shared responsibilities short, high level, and clear comes at the cost
 of muddled ownership when pertaining to very specific issues or concerns. Security specifically
 will fall prey to this as both parties may assume the other is responsible, or the team responsible
 is under-qualified in dealing with the issue. The only solution is clear and regular communication
