@@ -32,12 +32,12 @@ technical considerations.
 
 ### General guidelines
  - Code reviews are required at CDS.
-   - Each review should have a technical reviewre.
+   - Each review should have a technical reviewer.
    - Add Design, Research, Product Management, Service Owner, as needed.
  - Tend towards questions rather then statements.
    - The reviewer may not understand all the considerations a reviewee
      put into the code.
-   - The reviewee may not undestand the reviewers past experience with
+   - The reviewee may not understand the reviewers past experience with
      the code.
  - [Be nice](https://qz.com/work/625870/after-years-of-intensive-analysis-google-discovers-the-key-to-good-teamwork-is-being-nice/)
    - Read the CDS [Code of Conduct](https://github.com/cds-snc/.github/blob/master/CODE_OF_CONDUCT.md)
