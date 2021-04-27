@@ -13,10 +13,16 @@ tags:
 # Code Review
 
 ## Summary
-Code review is an integral part of how we work at CDS. Reviewing code
-provides an opportunity for other developers to understand the code. It
-provides a second set of experiences to shape the code. This RFC lays
-out considerations for reviewing code at CDS.
+Code review is an integral part of how we work at CDS. Having your code
+reviewed provides an extra layer of experience and guidance. It's easy to
+get lost in the forest and miss potential complications and
+simplifications.  Providing reviews gives the opportunity to understand
+and shape the system as a whole.
+
+The process on both sides allows our developers to learn from each other.
+As much can be learned by the reviewer as the reviewee.
+
+This RFC lays out considerations for reviewing code at CDS.
 
 ## Motivation
 A shared set of considerations helps ease both the burden of being
@@ -44,7 +50,7 @@ technical considerations.
  - Escalate if the review is blocked.
    - The goal of the review is that the code looks good to the reviewer.
      It doesn't have to be perfect, it doesn't have to be how the
-     reviwere would write it. Just, good.
+     reviewer would write it. Just, good.
  - In general authors should merge their own PRs.
    - This allows them to make any final touch ups or edit the commit
      message.
@@ -53,7 +59,7 @@ technical considerations.
  - Prefer to `Squash and merge` commits.
    - The development history is in the PR if desired, but typically
      doesn't add much to the main repository.
-
+ - Force pushing to a repo should be a last resort.
 
 ### Principles for reviewees
  - The title and description should provide all the needed context.
@@ -136,20 +142,23 @@ technical considerations.
 #### Documentation
  - Does this change require an update to the README or configuration
    files?
+   - Are there internal documents which need to be updated?
  - Is the reason for the change outlined in the commit message?
 
 
 ## Drawbacks
-Making the code review process too restrictive makes it more of a core
+Making the code review process too restrictive makes it more of a chore
 then it should be. We want the process to be fairly light, but still
 maintain value.
 
 
 ## Alternatives
-Without the guide rails the process can continue as is with different
-styles of code review being provided by different folks. This, while
-functional, can be difficult if you need different reviewers for things
-or force people to go to their favourite reviewer.
+Without guide rails the process could continue as is. Different styles of
+code review being provided by different folks. While functional, this
+style can be difficult. If you need multiple reviewers it's easy to
+get conflicting advice. This can also cause reviewees to use their
+favourite reviewers, pushing the review load onto a limited number of
+people.
 
 ## Further references
 
