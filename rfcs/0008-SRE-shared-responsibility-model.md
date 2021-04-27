@@ -1,6 +1,6 @@
 ---
 created-on: 2021-04-12
-freshness: 2021-04-12
+freshness: 2021-04-27
 owner: @maxneuvians
 status: proposal
 ---
@@ -27,6 +27,7 @@ In our shared responsibility model, the SRE Team is responsible for:
 - Maintaining any tooling that is developed by the SRE Team (ex. Custom GitHub integrations, [Secret](https://github.com/cds-snc/secret), [CDS Wide load testing tools](https://load-testing.cdssandbox.xyz/)) which are used by product teams.
 - Help surface security issues for product teams to act upon
 - Recommending best practices for GitHub and AWS
+- Helping and training community members in incident post mortem best practices
 
 In our shared responsibility model, product teams are responsible for -
 
@@ -34,13 +35,18 @@ In our shared responsibility model, product teams are responsible for -
     - Setting up their own operations inside AWS accounts using best practices such as infrastructure as code
     - Building continuous integration / continuous delivery pipelines
     - Follow best practices for Github and AWS as articulated by the SRE team
+    - Acting as operations leads as part of the on-call rotation on their product teams
 
 - through the delivery management community:
     - Completing their own security assessments with some evidence provided by the SRE team
+    - Acting as incident commanders as part of the on-call rotation on their product teams
+    - Running incident postmortems
 
 - through the product management community:
     - Resolving security issues inside the infrastructure or application (unless they are
     [Landing Zone](https://aws.amazon.com/solutions/implementations/aws-landing-zone/) specific)
+    - Acting as incident commanders as part of the on-call rotation on their product teams
+    - Resolving issues surfaced through incident postmortems
 
 ## Drawbacks
 Keeping a set of shared responsibilities short, high level, and clear comes at the cost
