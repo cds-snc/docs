@@ -54,6 +54,8 @@ technical considerations.
  - In general authors should merge their own PRs.
    - This allows them to make any final touch ups or edit the commit
      message.
+   - Using merge commits ends up with the person pressing the merge button as
+     the author in GitHub and makes the authorship harder to understand.
  - Cleanup branches after merge. If possible, enable the auto-delete
    after merge option on repositories.
  - Prefer to `Squash and merge` commits.
@@ -83,7 +85,7 @@ technical considerations.
 
 ### Principles for reviewers
  - Try to comment on the PR in as short an interval is possible (<24
-   business hours preferably).
+   hours preferably, excluding weekends).
    - The comment doesn't have to be the review, but can just be a
      comment letting the reviewee know when you'll be able to review.
      This gives them the opportunity to find another reviewer if needed.
@@ -107,6 +109,11 @@ technical considerations.
    - Does it perform its intended function?
    - Is the logic correct?
    - Is the proposed UI accessible?
+ - Does this the change introduce tech debt?
+   - Adding tech debt isn't a bad thing, but we need to make sure we understand
+     why we're adding it and how we're going to contain it.
+   - If adding, are there comments or documentation around the debt so future
+     maintainers can understand the issues?
  - Does this change introduce any security concerns?
    - Does it accept or handle user data?
  - Is all the code easily understood?
@@ -138,6 +145,9 @@ technical considerations.
    input and errors?
  - Are tests checking at the right level?
  - Do the existing set of tests pass?
+ - If there is an instance created for the PR has the functionality been tested
+   through the UI?
+
 
 #### Documentation
  - Does this change require an update to the README or configuration
