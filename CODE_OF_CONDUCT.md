@@ -19,23 +19,23 @@ diverse, inclusive, and healthy community.
 Examples of behavior that contributes to a positive environment for our
 community include:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
+- Focusing on what is best not just for us as individuals, but for the
   overall community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or
+- The use of sexualized language or imagery, and sexual attention or
   advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email
   address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
@@ -102,7 +102,7 @@ Violating these terms may lead to a permanent ban.
 ### 4. Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
+standards, including sustained inappropriate behavior, harassment of an
 individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
@@ -123,7 +123,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
 
-____
+---
 
 # Code de conduite de la Charte des contributeurs
 
@@ -137,21 +137,21 @@ Nous nous engageons à agir et à interagir de manière à contribuer à une com
 
 Voici des exemples de comportements qui contribuent à créer un environnement positif pour notre communauté :
 
-* manifester de l’empathie et de la bonté envers les autres;
-* être respectueux des opinions, des points de vue et des expériences divergents;
-* donner des commentaires constructifs et en accepter gracieusement;
-* accepter la responsabilité de nos erreurs et présenter des excuses aux personnes touchées,
+- manifester de l’empathie et de la bonté envers les autres;
+- être respectueux des opinions, des points de vue et des expériences divergents;
+- donner des commentaires constructifs et en accepter gracieusement;
+- accepter la responsabilité de nos erreurs et présenter des excuses aux personnes touchées,
   et apprendre nos expériences;
-* nous concentrer sur ce qui est le mieux non seulement pour nous en tant que personnes, mais pour la communauté globale.
+- nous concentrer sur ce qui est le mieux non seulement pour nous en tant que personnes, mais pour la communauté globale.
 
 Voici des exemples de comportements inacceptables :
 
-* l’utilisation d’un langage ou d’images à caractère sexuel, et les attentions sexuelles ou
+- l’utilisation d’un langage ou d’images à caractère sexuel, et les attentions sexuelles ou
   les avances de toute sorte;
-* le trollage, les commentaires insultants ou désobligeants et les attaques personnelles ou d’ordre politique;
-* le harcèlement en public ou en privé;
-* la publication de renseignements personnels d’autres personnes, telles qu’une adresse physique ou électronique, sans permission explicite;
-* tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans un milieu professionnel.
+- le trollage, les commentaires insultants ou désobligeants et les attaques personnelles ou d’ordre politique;
+- le harcèlement en public ou en privé;
+- la publication de renseignements personnels d’autres personnes, telles qu’une adresse physique ou électronique, sans permission explicite;
+- tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans un milieu professionnel.
 
 ## Responsabilités de mise en application
 
@@ -212,6 +212,6 @@ version 2.0, disponible à https://www.contributor-covenant.org/version/2/0/code
 
 Les consignes relatives à l’incidence communautaire ont été inspirées de [l’échelle de mise en application du Code de conduite de Mozilla](https://github.com/mozilla/diversity).
 
-Pour obtenir des réponses aux questions les plus courantes sur ce Code de conduite, consultez la foire aux questions à 
-https://www.contributor-covenant.org/faq. Les traductions sont disponibles à 
+Pour obtenir des réponses aux questions les plus courantes sur ce Code de conduite, consultez la foire aux questions à
+https://www.contributor-covenant.org/faq. Les traductions sont disponibles à
 https://www.contributor-covenant.org/translations.
