@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "CDS-SNC documentation repository",
+  "main": "index.js",
+  "repository": "https://github.com/cds-snc/docs",
+  "author": "Canadian Digital Service - Service numérique canadien",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "fmt": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}
