@@ -51,6 +51,10 @@ technical considerations.
    - The goal of the review is that the code looks good to the reviewer.
      It doesn't have to be perfect, it doesn't have to be how the
      reviewer would write it. Just, good.
+   - The term good is intentionally vague as it depends on context. As a
+     guide, follow the [Technical
+     Considerations](#technical-considerations) listed later in this
+     document.
  - In general authors should merge their own PRs.
    - This allows them to make any final touch ups or edit the commit
      message.
@@ -116,6 +120,7 @@ technical considerations.
      maintainers can understand the issues?
  - Does this change introduce any security concerns?
    - Does it accept or handle user data?
+   - Does the ATO or other security documentation need to be updated?
  - Is all the code easily understood?
    - Which parts are confusing to you and why?
    - If you are taking a lot of time to understand the code, perhaps it
@@ -125,6 +130,10 @@ technical considerations.
  - Does similar functionality already exist in the codebase?
    - If so, why isn't this functionality reused?
      (Note: it's okay to not reuse -— but it's worth asking the question.)
+ - Does the code follow the format/style of the surrounding code?
+   - In general, this means applying the appropriate code formatter for
+     the repository. In the case there is no formatter, follow the
+     surrounding style of the code being modified.
 
 #### Comments
  - Has all commented-out code been deleted?
