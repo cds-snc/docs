@@ -65,8 +65,8 @@ We assume that this is the best way for us to learn from past mistakes and succe
 
 ## Open Questions
 
-How do these align with the principles of our organisation?
-
+- How do these align with the principles of our organisation?
+- How we make sure time is allocated properly for this process?
 ---
 
 # Résumé
