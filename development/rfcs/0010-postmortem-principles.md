@@ -39,7 +39,7 @@ In the broadest sense, an incident is any unplanned work you encounter in your d
 - User-visible downtime or degradation beyond a certain threshold
 - Data loss of any kind
 - On-call engineer intervention (release rollback, rerouting of traffic, etc.)
-- A resolution time above some threshold
+- An issue resolution time above some threshold (takes longer than expected to fix a known error state)
 - A monitoring failure (which usually implies manual incident discovery)
 
 ### We care about the details
@@ -56,11 +56,12 @@ The creation, review and completion of postmortems should be given emphasis by t
 
 ## Drawbacks
 
-We assume that this is the best way for us to learn from past mistakes and successes. However, it requires significant investment of time and resources to do properly, which comes at the opportunity cost of other work. Should we not properly follow through on our commitments we may end up with a broken process that has wasted time and resources with no usable outcomes.
+We assume that this is the best way for us to learn from past mistakes and successes. However, it requires investment of time and resources to do properly, which comes at the opportunity cost of other work. Should we not properly follow through on our commitments we may end up with a broken process that has wasted time and resources with no usable outcomes.
 
 ## Alternatives
 
-Time invested into postmortems could be invested into other work, while incidents are centrally monitored and managed.
+- Time invested into postmortems could be invested into other work, while incidents are centrally monitored and managed by an on-call operations team vs. the product teams themselves.
+- Only document incident with long downtime or damage to the users experience.
 
 ## Open Questions
 
