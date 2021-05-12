@@ -36,21 +36,23 @@ In our shared responsibility model, the SRE Team is responsible for:
 In our shared responsibility model, product teams are responsible for -
 
 - through the development community:
-    - Setting up their own operations inside AWS accounts using best practices such as infrastructure as code
-    - Building continuous integration / continuous delivery pipelines
-    - Follow best practices for Github and AWS as articulated by the SRE team
-    - Acting as operations leads as part of the on-call rotation on their product teams
+
+  - Setting up their own operations inside AWS accounts using best practices such as infrastructure as code
+  - Building continuous integration / continuous delivery pipelines
+  - Follow best practices for Github and AWS as articulated by the SRE team
+  - Acting as operations leads as part of the on-call rotation on their product teams
 
 - through the delivery management community:
-    - Completing their own security assessments with some evidence provided by the SRE team
-    - Acting as incident commanders as part of the on-call rotation on their product teams
-    - Running incident postmortems
+
+  - Completing their own security assessments with some evidence provided by the SRE team
+  - Acting as incident commanders as part of the on-call rotation on their product teams
+  - Running incident postmortems
 
 - through the product management community:
-    - Resolving security issues inside the infrastructure or application (unless they are
+  - Resolving security issues inside the infrastructure or application (unless they are
     [Landing Zone](https://aws.amazon.com/solutions/implementations/aws-landing-zone/) specific)
-    - Acting as incident commanders as part of the on-call rotation on their product teams
-    - Resolving issues surfaced through incident postmortems
+  - Acting as incident commanders as part of the on-call rotation on their product teams
+  - Resolving issues surfaced through incident postmortems
 
 ## Drawbacks
 
