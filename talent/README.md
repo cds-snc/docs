@@ -1,4 +1,4 @@
-[La version française suit.](#TODO)
+[La version française suit.](#snc-docs---talent)
 
 # CDS Docs - Talent
 The Talent team strives to identify, attract and hire top talent that enables CDS to build a positive work environment where the team has plenty of opportunities for development and is built on a culture of inclusion and coaching.
